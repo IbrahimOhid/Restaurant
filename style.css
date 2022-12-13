@@ -24,7 +24,7 @@ html{
 [class*="col-"]{
     width: 100%;
 }
-[class*="col"]{
+[class*="col-"]{
    float: left;
    padding: 15px; 
 }
@@ -98,7 +98,7 @@ footer p{
     .col-lg-12 {width: 100%;}
   }
 header{
-    background:#00eaff;
+    background:#000428 ;
     text-align: center;
     
 }
@@ -120,7 +120,7 @@ ul li a{
     transition: .4s;
 }
 ul li a:hover{
-    background: rgba(0, 0, 0, 0.484);
+    background: #2c3e50;
     border-radius: 10px;
 }
 /* header design ends here */
@@ -140,13 +140,13 @@ ul li a:hover{
 }
 .banner-content h1{
     font-family: cursive;
-    background-color: rgba(125, 239, 31, 0.724);
+    background-color: #004e92cb;
     font-size: 3rem;
     border-radius: 5px;
     color: #fff;
 }
 .banner-content p{
-    background-color: rgba(109, 21, 176, 0.712);
+    background-color: #ed4264dc;
     font-family: sans-serif;
     font-size: 1.5rem;
     margin-top: 10px;
@@ -155,11 +155,11 @@ ul li a:hover{
 }
 .btn{
     border: none;
-    background-color: rgb(228, 20, 51);
+    background-color: #ff5e62;
     font-size: 1.3rem;
-    border-radius: 5px;
+    border-radius: 3px;
     color: #fff;
-    padding: 5px 8px;
+    padding: 5px 7px;
     margin-top: 10px;
     cursor: pointer;
     transition: .4s;
